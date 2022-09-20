@@ -346,12 +346,55 @@ template {
   display: none;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .hero {
-  background-image: url(pic.jpg);
+  background-image: url(img/background-top.jpg);
   min-height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 30px;
+}
+
+.hero .container {
+  width: 100%;
+  max-width: 1134px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.hero .container .header-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container .header-main-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container .header-login-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */

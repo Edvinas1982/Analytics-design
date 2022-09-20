@@ -1,2 +1,32 @@
+.hero {
+    background-image: url(img/background-top.jpg);
+    min-height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
 
+    .container {
+        width: 100%;
+        max-width: 1134px;
+        margin: 0 auto;
+        padding: 0 12px;
+        .header-main {
+            display: flex;
+        }
+        .header-main-nav__list{
+            display: flex;
+        }
+        .header-login-nav__list {
+            display: flex;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+    }
+ }
+ 
+ 
     
