@@ -347,7 +347,7 @@ template {
 }
 
 .hero {
-  background-image: url(/img/background.jpg);
+  background-image: url(pic.jpg);
   min-height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
