@@ -12,69 +12,47 @@
         margin: 0 auto;
         padding: 0 12px;
 
-        .header-logo-img-txt{
-            top: -10px;
-            position: relative;
-            padding-left: 10px;
-        }
-
-        .header-main {
-            display: flex;
-            padding-right: 270px;
-
-            &__nav-list {
-                display: flex;
-            }
-        }
-        .header-login-nav__list {
-            display: flex;
-
-            &-item {
-                left: 0;
-                right: 0;
-                margin: auto;
-            }  
-            }
-        nav a {
-            margin-top: 1px;
-            font-size: rem(16);
-            font-weight: 400;
-            line-height: 19px;
-            color: #8794BA;
-            display: inline-block;
-            text-decoration: none;
-            padding: 0 18px;
-            text-transform: capitalize;
-            transition: all ease 0.3s;
-        }
-        .header-login-nav__button {
-            border: 1px solid #465B95;
-            border-radius: 68px;
-            padding: 10px 53px;
-            gap: 10px;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-    }
-}
-.hero {
-    .container {
         header {
+            nav a {
+                margin-top: 1px;
+                font-size: rem(16);
+                font-weight: 400;
+                line-height: 19px;
+                color: #8794BA;
+                display: inline-block;
+                text-decoration: none;
+                padding: 0 18px;
+                text-transform: capitalize;
+                transition: all ease 0.3s;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
             &-logo-box {
                 &__img {
 
                 }
                 &__txt {
-            
+                    top: -10px;
+                    position: relative;
+                    padding-left: 10px;
                 }
             }
             &-navigation {
+                display: flex;
+                padding-right: 270px;
+
                 &__main-nav {
                     &-list {
+                        display: flex;
+
                         &-item {
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            
                             &-link {
     
                             }
@@ -85,12 +63,17 @@
             &-login {
                 &__nav {
                     &-list {
+                        display: flex;
+
                         &-item {
                             &-link {
                             
                             }
                             &-button {
-
+                                border: 1px solid #465B95;
+                                border-radius: 68px;
+                                padding: 10px 53px;
+                                gap: 10px;
                             }
                         }
                     }
