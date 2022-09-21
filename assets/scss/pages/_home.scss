@@ -60,7 +60,45 @@
         }
     }
 }
- 
+.hero {
+    .container {
+        header {
+            .header-logo-box {
+                .header-logo-img {
+
+                }
+                .header-logo-img-txt {
+            
+                }
+            }
+            .header-main {
+                .header-main__nav {
+                    .header-main__nav-list {
+                        .header-main__nav-list-item {
+                            .header-main__nav-link {
+    
+                            }
+                        }
+                    }
+                }
+            }
+            .header-login {
+                .header-login-nav {
+                    .header-login-nav__list {
+                        .header-login-nav__list-item {
+                            .header-login-nav__link {
+                            
+                            }
+                            .header-login-nav__button {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+    }
+} 
  
  
     
