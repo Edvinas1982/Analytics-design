@@ -379,38 +379,7 @@ header {
   padding: 0 12px;
 }
 
-.hero .container .header-logo-img-txt {
-  top: -10px;
-  position: relative;
-  padding-left: 10px;
-}
-
-.hero .container .header-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 270px;
-}
-
-.hero .container .header-main__nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.hero .container .header-login-nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.hero .container .header-login-nav__list-item {
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.hero .container nav a {
+.hero .container header nav a {
   margin-top: 1px;
   font-size: 1rem;
   font-weight: 400;
@@ -425,16 +394,47 @@ header {
   transition: all ease 0.3s;
 }
 
-.hero .container .header-login-nav__button {
+.hero .container header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .container header .logo-box__txt {
+  top: -10px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.hero .container header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 270px;
+}
+
+.hero .container header .navigation-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container header .login-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container header .login-menu__list-item-link {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.hero .container header .login-menu__list-item-button {
   border: 1px solid #465B95;
   border-radius: 68px;
   padding: 10px 53px;
   gap: 10px;
-}
-
-.hero .container ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */

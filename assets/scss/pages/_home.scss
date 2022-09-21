@@ -30,7 +30,7 @@
                 margin: 0;
                 padding: 0;
             }
-            &-logo-box {
+            .logo-box {
                 &__img {
 
                 }
@@ -40,45 +40,48 @@
                     padding-left: 10px;
                 }
             }
-            &-navigation {
+            .navigation {
                 display: flex;
                 padding-right: 270px;
+            }
+            .navigation-menu {
+                &__list {
+                    display: flex;
+                }
+                &__list-item {
 
-                &__main-nav {
-                    &-list {
-                        display: flex;
-
-                        &-item {
-                            left: 0;
-                            right: 0;
-                            margin: auto;
-                            
-                            &-link {
+                }
+                &__list-item-link {
     
-                            }
-                        }
-                    }
+                }         
                 }
-            }
-            &-login {
-                &__nav {
-                    &-list {
-                        display: flex;
+            
+            .login {
 
-                        &-item {
-                            &-link {
-                            
-                            }
-                            &-button {
-                                border: 1px solid #465B95;
-                                border-radius: 68px;
-                                padding: 10px 53px;
-                                gap: 10px;
-                            }
-                        }
-                    }
-                }
             }
+
+            .login-menu {
+                &__list {
+                    display: flex;
+                }
+                &__list-item {
+
+                }
+                &__list-item-link{
+                                         left: 0;
+                    right: 0;
+                    margin: auto;       
+                }
+                &__list-item-button {
+                    border: 1px solid #465B95;
+                    border-radius: 68px;
+                    padding: 10px 53px;
+                    gap: 10px;
+                }
+                    
+                
+            }
+            
         }   
     }
 } 
