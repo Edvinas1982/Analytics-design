@@ -63,34 +63,34 @@
 .hero {
     .container {
         header {
-            .header-logo-box {
-                .header-logo-img {
+            &-logo-box {
+                &__img {
 
                 }
-                .header-logo-img-txt {
+                &__txt {
             
                 }
             }
-            .header-main {
-                .header-main__nav {
-                    .header-main__nav-list {
-                        .header-main__nav-list-item {
-                            .header-main__nav-link {
+            &-navigation {
+                &__main-nav {
+                    &-list {
+                        &-item {
+                            &-link {
     
                             }
                         }
                     }
                 }
             }
-            .header-login {
-                .header-login-nav {
-                    .header-login-nav__list {
-                        .header-login-nav__list-item {
-                            .header-login-nav__link {
+            &-login {
+                &__nav {
+                    &-list {
+                        &-item {
+                            &-link {
                             
                             }
-                            .header-login-nav__button {
-                                
+                            &-button {
+
                             }
                         }
                     }
