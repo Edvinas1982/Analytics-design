@@ -374,7 +374,7 @@ header {
 
 .hero .container {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 12px;
 }
@@ -410,7 +410,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 270px;
+  padding-right: 220px;
 }
 
 .hero .container header .navigation-menu__list {
@@ -425,10 +425,11 @@ header {
   display: flex;
 }
 
-.hero .container header .login-menu__list-item-link {
+.hero .container header .login-menu__list-item {
   left: 0;
   right: 0;
   margin: auto;
+  padding-right: 30px;
 }
 
 .hero .container header .login-menu__list-item-button {
@@ -436,5 +437,12 @@ header {
   border-radius: 68px;
   padding: 10px 53px;
   gap: 10px;
+}
+
+.hero .container .analytics-graphic {
+  position: relative;
+  left: 60%;
+  top: 110px;
+  width: auto;
 }
 /*# sourceMappingURL=main.css.map */
