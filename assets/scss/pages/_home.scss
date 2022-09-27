@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 30px;
+    width: 100%;
+    height: auto;
 
     .container {
         width: 100%;
@@ -86,18 +88,47 @@
         }
         .analytics-graphic {
             position: relative;
-            left: 60%;
-            top: 260px;
-           
+            left: 62.8%;
+            top: 70px;
+            width: 100%;
+            height: auto;
+            display: unset;
         }
         .analytics-graphic-circle {
             position: relative;
-            left: 55%;
-            top: -248px;
+            left: 1%;
+            top: -145px;
             width: auto;
+            width: 100%;
+            height: auto;
+            display: unset;
         }
     }
+
 } 
- 
+.mega {
+    .container {
+        width: 100%;
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 12px;
+        h1 {
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: rem(40);
+            line-height: 47px;
+            text-align: center;
+            color: #172755;
+        }
+        p {
+            font-weight: 400;
+            font-size: rem(18);
+            line-height: 150%;
+            text-align: center;
+            color: #8794BA;
+            padding: 0 10px;
+        }
+    }
+}
  
     
