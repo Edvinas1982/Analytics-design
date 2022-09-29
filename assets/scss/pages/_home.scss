@@ -112,7 +112,7 @@
         max-width: 1180px;
         margin: 0 auto;
         padding: 0 12px;
-        h1 {
+        h2 {
             margin-top: 50px;
             font-weight: 700;
             font-size: rem(40);
@@ -147,6 +147,50 @@
                 color: #8794BA;
             }
         }
+    }
+}
+.apollo {
+    .container {
+        width: 100%;
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 12px;
+        .info-box {
+            display: flex;
+            margin-bottom: 30px;
+
+            &__text {
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                h2 {
+                    font-weight: 700;
+                    font-size: rem(40);
+                    line-height: 47px;
+                    color: #172755;
+                    padding-right: 99px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: rem(18);
+                    line-height: 150%;
+                    color: #8794BA;
+                    padding-right: 24px;
+                }
+            }
+            &__rhombus, 
+            &__callendar {
+                position: relative;
+                left: 35px;
+            }
+            &__horizontal {
+                position: relative;
+                right: 35px;
+            }
+        }
+
     }
 }
  
