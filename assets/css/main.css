@@ -365,7 +365,7 @@ header {
 
 .hero {
   background-image: url(img/background-top.jpg);
-  min-height: 80vh;
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,5 +483,29 @@ header {
   text-align: center;
   color: #8794BA;
   padding: 0 10px;
+  margin-bottom: 81px;
+}
+
+.mega .container .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.mega .container .column h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  color: #172755;
+}
+
+.mega .container .column p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+  text-align: center;
+  color: #8794BA;
 }
 /*# sourceMappingURL=main.css.map */

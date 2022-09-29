@@ -1,6 +1,6 @@
 .hero {
     background-image: url(img/background-top.jpg);
-    min-height: 80vh;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,6 +127,25 @@
             text-align: center;
             color: #8794BA;
             padding: 0 10px;
+            margin-bottom: 81px;
+        }
+        .column {
+            display: flex;
+            text-align: center;
+            h4 {
+                font-weight: 700;
+                font-size: rem(16);
+                line-height: 19px;
+                text-align: center;
+                color: #172755;
+            }
+            p {
+                font-weight: 400;
+                font-size: rem(16);
+                line-height: 140%;
+                text-align: center;
+                color: #8794BA;
+            }
         }
     }
 }
