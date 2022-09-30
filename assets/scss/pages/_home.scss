@@ -242,10 +242,100 @@
                 background: #0F1F4B;
                 opacity: 0.7;
                 box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+                h4 {
+                    font-weight: 700;
+                    font-size: rem(30);
+                    line-height: 35px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+                &__user-quantity {
+                    font-weight: 400;
+                    font-size: rem(18);
+                    line-height: 150%;
+                    text-align: center;
+                    color: #8794BA;
+                }
+                &__line {
+                    display: block;
+                    width: 200px;
+                    height: 1px;
+                    margin: 20px auto 0;
+                    background-color: #2A407C;
+                }
+                &__price {
+                    font-weight: 700;
+                    font-size: rem(30);
+                    line-height: 35px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+                &__time-term {
+                    font-weight: 400;
+                    font-size: rem(16);
+                    line-height: 140%;
+                    text-align: center;
+                    color: #8794BA;
+                }
+                &__order-button {
+                    border: 1px solid #2A407C;
+                    border-radius: 68px;
+                    padding: 10px 80px;
+                    gap: 10px;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    transition: all ease 0.3s;
+                }
             }
             .middle-box {
                 background: #FFFFFF;
                 box-shadow: 0px 18px 50px -15px #060F28;
+                h4 {
+                    font-weight: 700;
+                    font-size: rem(30);
+                    line-height: 35px;
+                    text-align: center;
+                    color: #172755;
+                }
+                &__user-quantity {
+                    font-weight: 400;
+                    font-size: rem(18);
+                    line-height: 150%;
+                    text-align: center;
+                    color: #8794BA;
+                }
+                &__line {
+                    display: block;
+                    width: 200px;
+                    height: 1px;
+                    margin: 20px auto 0;
+                    background: #D3D9E9;
+                }
+                &__price {
+                    font-weight: 700;
+                    font-size: rem(30);
+                    line-height: 35px;
+                    text-align: center;
+                    color: #172755;
+                }
+                &__time-term {
+                    font-weight: 400;
+                    font-size: rem(16);
+                    line-height: 140%;
+                    text-align: center;
+                    color: #8794BA;
+                }
+                &__order-button {
+                    border: 1px solid #EF2A82;
+                    border-radius: 68px;
+                    padding: 10px 80px;
+                    gap: 10px;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    transition: all ease 0.3s;
+                    background-color:#EF2A82;
+                    color: #FFFFFF;
+                }
             }
 
         }
