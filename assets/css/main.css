@@ -599,6 +599,10 @@ header {
   display: inline-flex;
 }
 
+.zeus .container .pricing-plans p {
+  margin-bottom: 75px;
+}
+
 .zeus .container .pricing-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -608,19 +612,19 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
+  min-height: 420px;
 }
 
 .zeus .container .pricing-box .left-box,
 .zeus .container .pricing-box .middle-box,
 .zeus .container .pricing-box .right-box {
-  width: 30%;
+  width: 29%;
   border-radius: 30px;
 }
 
 .zeus .container .pricing-box .left-box,
 .zeus .container .pricing-box .right-box {
-  background: #0F1F4B;
-  opacity: 0.7;
+  background: rgba(15, 31, 75, 0.7);
   -webkit-box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
           box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
 }
@@ -632,6 +636,7 @@ header {
   line-height: 35px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 5px;
 }
 
 .zeus .container .pricing-box .left-box__user-quantity,
@@ -641,6 +646,8 @@ header {
   line-height: 150%;
   text-align: center;
   color: #8794BA;
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
 
 .zeus .container .pricing-box .left-box__line,
@@ -652,13 +659,38 @@ header {
   background-color: #2A407C;
 }
 
-.zeus .container .pricing-box .left-box__price,
-.zeus .container .pricing-box .right-box__price {
+.zeus .container .pricing-box .left-box__price-list,
+.zeus .container .pricing-box .right-box__price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.zeus .container .pricing-box .left-box__currency,
+.zeus .container .pricing-box .right-box__currency {
   font-weight: 700;
   font-size: 1.875rem;
   line-height: 35px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 56px;
+}
+
+.zeus .container .pricing-box .left-box__price,
+.zeus .container .pricing-box .right-box__price {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 70px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-top: 28px;
 }
 
 .zeus .container .pricing-box .left-box__time-term,
@@ -668,6 +700,8 @@ header {
   line-height: 140%;
   text-align: center;
   color: #8794BA;
+  margin-top: 3px;
+  margin-bottom: 50px;
 }
 
 .zeus .container .pricing-box .left-box__order-button,
@@ -681,6 +715,7 @@ header {
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
+  color: #FFFFFF;
 }
 
 .zeus .container .pricing-box .middle-box {
@@ -695,6 +730,7 @@ header {
   line-height: 35px;
   text-align: center;
   color: #172755;
+  margin-bottom: 5px;
 }
 
 .zeus .container .pricing-box .middle-box__user-quantity {
@@ -703,6 +739,8 @@ header {
   line-height: 150%;
   text-align: center;
   color: #8794BA;
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
 
 .zeus .container .pricing-box .middle-box__line {
@@ -713,12 +751,35 @@ header {
   background: #D3D9E9;
 }
 
-.zeus .container .pricing-box .middle-box__price {
+.zeus .container .pricing-box .middle-box__price-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.zeus .container .pricing-box .middle-box__currency {
   font-weight: 700;
   font-size: 1.875rem;
   line-height: 35px;
   text-align: center;
   color: #172755;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 56px;
+}
+
+.zeus .container .pricing-box .middle-box__price {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 70px;
+  text-align: center;
+  color: #172755;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-top: 28px;
 }
 
 .zeus .container .pricing-box .middle-box__time-term {
@@ -727,6 +788,8 @@ header {
   line-height: 140%;
   text-align: center;
   color: #8794BA;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .zeus .container .pricing-box .middle-box__order-button {

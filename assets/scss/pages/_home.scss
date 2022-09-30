@@ -225,22 +225,25 @@
                 width: 60%;
                 display: inline-flex;
             }
+            p {
+                margin-bottom: 75px;
+            }
         }
         .pricing-box {
             display: flex;
             width: 100%;
             justify-content: space-between;
             text-align: center;
+            min-height: 420px;
             .left-box,
             .middle-box,
             .right-box {
-                width: 30%;
+                width: 29%;
                 border-radius: 30px;
             }
             .left-box,
-            .right-box {
-                background: #0F1F4B;
-                opacity: 0.7;
+            .right-box { 
+                background: rgba(15, 31, 75, 0.7);
                 box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
                 h4 {
                     font-weight: 700;
@@ -248,6 +251,7 @@
                     line-height: 35px;
                     text-align: center;
                     color: #FFFFFF;
+                    margin-bottom: 5px;
                 }
                 &__user-quantity {
                     font-weight: 400;
@@ -255,6 +259,8 @@
                     line-height: 150%;
                     text-align: center;
                     color: #8794BA;
+                    margin-top: 10px;
+                    margin-bottom: 35px;
                 }
                 &__line {
                     display: block;
@@ -263,12 +269,29 @@
                     margin: 20px auto 0;
                     background-color: #2A407C;
                 }
-                &__price {
+                &__price-list {
+                    display: flex;
+                    justify-content: center;
+                }
+                &__currency {
                     font-weight: 700;
                     font-size: rem(30);
                     line-height: 35px;
                     text-align: center;
-                    color: #FFFFFF;
+                    color:#FFFFFF;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                    padding-top: 56px;
+                }
+                &__price {
+                    font-weight: 700;
+                    font-size: rem(60);
+                    line-height: 70px;
+                    text-align: center;
+                    color:#FFFFFF;
+                    margin-bottom: 0px;
+                    margin-top: 0;
+                    padding-top: 28px;
                 }
                 &__time-term {
                     font-weight: 400;
@@ -276,6 +299,8 @@
                     line-height: 140%;
                     text-align: center;
                     color: #8794BA;
+                    margin-top: 3px;
+                    margin-bottom: 50px;
                 }
                 &__order-button {
                     border: 1px solid #2A407C;
@@ -285,6 +310,7 @@
                     text-decoration: none;
                     text-transform: capitalize;
                     transition: all ease 0.3s;
+                    color: #FFFFFF;
                 }
             }
             .middle-box {
@@ -296,6 +322,7 @@
                     line-height: 35px;
                     text-align: center;
                     color: #172755;
+                    margin-bottom: 5px;
                 }
                 &__user-quantity {
                     font-weight: 400;
@@ -303,6 +330,8 @@
                     line-height: 150%;
                     text-align: center;
                     color: #8794BA;
+                    margin-top: 10px;
+                    margin-bottom: 35px;
                 }
                 &__line {
                     display: block;
@@ -311,12 +340,29 @@
                     margin: 20px auto 0;
                     background: #D3D9E9;
                 }
-                &__price {
+                &__price-list {
+                    display: flex;
+                    justify-content: center;
+                }
+                &__currency {
                     font-weight: 700;
                     font-size: rem(30);
                     line-height: 35px;
                     text-align: center;
                     color: #172755;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                    padding-top: 56px;
+                }
+                &__price {
+                    font-weight: 700;
+                    font-size: rem(60);
+                    line-height: 70px;
+                    text-align: center;
+                    color: #172755;
+                    margin-bottom: 0px;
+                    margin-top: 0;
+                    padding-top: 28px;
                 }
                 &__time-term {
                     font-weight: 400;
@@ -324,6 +370,8 @@
                     line-height: 140%;
                     text-align: center;
                     color: #8794BA;
+                    margin-top: 0px;
+                    margin-bottom: 50px;
                 }
                 &__order-button {
                     border: 1px solid #EF2A82;
