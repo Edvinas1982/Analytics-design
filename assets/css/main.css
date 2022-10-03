@@ -420,6 +420,10 @@ header {
   display: flex;
 }
 
+.hero .container header .navigation-menu__list-item-link:hover {
+  color: #FFFFFF;
+}
+
 .hero .container header .login-menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,11 +437,20 @@ header {
   padding-right: 30px;
 }
 
+.hero .container header .login-menu__list-item-link:hover {
+  color: #FFFFFF;
+}
+
 .hero .container header .login-menu__list-item-button {
   border: 1px solid #465B95;
   border-radius: 68px;
   padding: 10px 53px;
   gap: 10px;
+}
+
+.hero .container header .login-menu__list-item-button:hover {
+  background-color: #465B95;
+  color: #FFFFFF;
 }
 
 .hero .container .analytics-graphic {
@@ -718,6 +731,12 @@ header {
   color: #FFFFFF;
 }
 
+.zeus .container .pricing-box .left-box__order-button:hover,
+.zeus .container .pricing-box .right-box__order-button:hover {
+  background-color: #465B95;
+  color: #1c2230;
+}
+
 .zeus .container .pricing-box .middle-box {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 18px 50px -15px #060F28;
@@ -806,11 +825,70 @@ header {
   color: #FFFFFF;
 }
 
+.zeus .container .pricing-box .middle-box__order-button:hover {
+  background-color: #FFFFFF;
+  color: #EF2A82;
+}
+
 .zeus .container .pricing-bottom-line {
   display: block;
-  width: 200px;
   height: 1px;
-  margin: 20px auto 0;
   background-color: #2A407C;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.zeus .container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.zeus .container footer .footer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.zeus .container footer .footer-navigation .footer-navigation-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.zeus .container footer .footer-navigation .footer-navigation-menu__list-item-link:hover {
+  color: #FFFFFF;
+}
+
+.zeus .container footer .footer-navigation nav a {
+  margin-top: 1px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 16px;
+  color: #8794BA;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 18px;
+  text-transform: capitalize;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.zeus .container footer .footer-social__icon {
+  padding: 0 15px;
+}
+
+.zeus .container footer .footer-social__icon:hover {
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */

@@ -53,7 +53,9 @@
 
                 }
                 &__list-item-link {
-    
+                    &:hover {
+                        color: #FFFFFF;
+                    }
                 }         
                 }
             
@@ -72,16 +74,21 @@
                     padding-right: 30px;
                 }
                 &__list-item-link{   
-
+                    &:hover {
+                        color: #FFFFFF;
+                    }
                 }
                 &__list-item-button {
                     border: 1px solid #465B95;
                     border-radius: 68px;
                     padding: 10px 53px;
                     gap: 10px;
+                    &:hover {
+                        background-color:  #465B95;
+                        color: #FFFFFF;
+                    }
                 }
-                    
-                
+
             }
             
         }
@@ -189,7 +196,6 @@
                 right: 35px;
             }
         }
-
     }
 }
 .zeus {
@@ -311,6 +317,10 @@
                     text-transform: capitalize;
                     transition: all ease 0.3s;
                     color: #FFFFFF;
+                    &:hover {
+                        background-color:  #465B95;
+                        color: #1c2230;
+                    }
                 }
             }
             .middle-box {
@@ -383,16 +393,63 @@
                     transition: all ease 0.3s;
                     background-color:#EF2A82;
                     color: #FFFFFF;
+                    &:hover {
+                        background-color:  #FFFFFF;
+                        color: #EF2A82;
+                    }
                 }
             }
 
         }
         .pricing-bottom-line {
             display: block;
-            width: 200px;
             height: 1px;
-            margin: 20px auto 0;
             background-color: #2A407C;
+            margin-top: 100px;
+            margin-bottom: 60px;
+        }
+        footer {
+            display: flex;
+            padding-bottom: 70px;
+            .footer-navigation {
+                display: flex;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                .footer-navigation-menu {
+                    &__list {
+                        display: flex;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    &__list-item-link {
+                        &:hover {
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+                nav a {
+                    margin-top: 1px;
+                    font-weight: 400;
+                    font-size: rem(14);
+                    line-height: 16px;
+                    color: #8794BA;
+                    display: inline-block;
+                    text-decoration: none;
+                    padding: 0 18px;
+                    text-transform: capitalize;
+                    transition: all ease 0.3s;
+                }
+            }
+            .footer-social__icon {
+                padding: 0 15px;
+                &:hover {
+                    color: #FFFFFF;
+                }
+            }
         }
     }
 }
