@@ -460,6 +460,8 @@ header {
   width: 100%;
   height: auto;
   display: unset;
+  -webkit-animation: myAnim ease 2s 1 normal none;
+          animation: myAnim ease 2s 1 normal none;
 }
 
 .hero .container .analytics-graphic-circle {
@@ -470,6 +472,8 @@ header {
   width: 100%;
   height: auto;
   display: unset;
+  -webkit-animation: myAnim 2s ease 0s 1 normal none;
+          animation: myAnim 2s ease 0s 1 normal none;
 }
 
 .mega .container {
@@ -888,7 +892,29 @@ header {
   padding: 0 15px;
 }
 
-.zeus .container footer .footer-social__icon:hover {
-  color: #FFFFFF;
+@-webkit-keyframes myAnim {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=main.css.map */
