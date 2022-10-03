@@ -805,4 +805,12 @@ header {
   background-color: #EF2A82;
   color: #FFFFFF;
 }
+
+.zeus .container .pricing-bottom-line {
+  display: block;
+  width: 200px;
+  height: 1px;
+  margin: 20px auto 0;
+  background-color: #2A407C;
+}
 /*# sourceMappingURL=main.css.map */
