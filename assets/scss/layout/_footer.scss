@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    padding-bottom: 70px;
+    .footer-navigation {
+        display: flex;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        .footer-navigation-menu {
+            &__list {
+                display: flex;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            &__list-item-link {
+                &:hover {
+                    color: #FFFFFF;
+                }
+            }
+        }
+        nav a {
+            margin-top: 1px;
+            font-weight: 400;
+            font-size: rem(14);
+            line-height: 16px;
+            color: #8794BA;
+            display: inline-block;
+            text-decoration: none;
+            padding: 0 18px;
+            text-transform: capitalize;
+            transition: all ease 0.3s;
+        }
+    }
+    .footer-social__icon {
+        padding: 0 15px;
+    }
+}
